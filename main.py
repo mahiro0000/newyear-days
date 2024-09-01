@@ -3,7 +3,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-@app.route("/api/v1/get_days")
+@app.route("/")
 def countdown(): 
   now = datetime.now()
   new_year = datetime(2025, 1, 1)
